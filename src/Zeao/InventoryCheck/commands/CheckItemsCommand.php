@@ -26,7 +26,7 @@ class CheckItemsCommand extends Command{
         $sender->sendMessage(TextFormat::colorize("&6Opening &b" . $player->getName() . "'s &6inventory."));
 $menu = InvMenu::create(InvMenu::TYPE_CHEST);
 $inventory = $menu->getInventory();
-$inventory->setContent($player->getInventory()->getContents());
+$inventory->setContents($player->getInventory()->getContents());
 $menu->readonly();
 $menu->send($player, $player->getName() . "'s items / inventory.");
 return;    
