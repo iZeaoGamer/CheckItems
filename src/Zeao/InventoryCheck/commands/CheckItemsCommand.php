@@ -28,7 +28,7 @@ $menu = InvMenu::create(InvMenu::TYPE_CHEST);
 $inventory = $menu->getInventory();
 $inventory->setContents($player->getInventory()->getContents());
 $menu->readonly();
-$menu->send($player, $player->getName() . "'s items / inventory.");
+$menu->send($player, $player->getName() . "'s items");
 return;    
 }
 }
