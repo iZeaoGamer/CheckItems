@@ -1,0 +1,7 @@
+name: InventoryCheck
+api: 3.0.0
+author: Zeao
+version: 1.0.0
+main: Zeao\InventoryCheck\InventoryChecker
+virions:
+- InvMenu
