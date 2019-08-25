@@ -1,5 +1,5 @@
 <?php 
-namespace Zeao\InventoryCheck;
+namespace Zeao\InventoryCheck\commands;
 
 use muqsit\invmenu\InvMenu;
 use pocketmine\command\Command;
