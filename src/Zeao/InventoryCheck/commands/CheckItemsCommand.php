@@ -4,10 +4,10 @@ namespace Zeao\InventoryCheck\commands;
 use muqsit\invmenu\InvMenu;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use Zeao\InventoryCheck\Main;
+use Zeao\InventoryCheck\InventoryChecker;
 
 class CheckItemsCommand extends Command{
-    public function __construct(Main $plugin){
+    public function __construct(InventoryChecker $plugin){
         parent::__construct("checkitems", "Checks other players inventories. (Not takeable.", "/checkitems <player>");
         $this->plugin = $plugin;
     }
