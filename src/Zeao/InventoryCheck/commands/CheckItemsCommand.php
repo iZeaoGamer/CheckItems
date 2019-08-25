@@ -5,6 +5,7 @@ use muqsit\invmenu\InvMenu;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use Zeao\InventoryCheck\InventoryChecker;
+use pocketmine\utils\TextFormat;
 
 class CheckItemsCommand extends Command{
     public function __construct(InventoryChecker $plugin){
