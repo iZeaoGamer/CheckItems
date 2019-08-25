@@ -6,6 +6,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use Zeao\InventoryCheck\InventoryChecker;
 use pocketmine\utils\TextFormat;
+use pocketmine\Player;
 
 class CheckItemsCommand extends Command{
     public function __construct(InventoryChecker $plugin){
