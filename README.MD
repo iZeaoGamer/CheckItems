@@ -4,10 +4,14 @@ It's pretty straight forward.
   Keep in mind - This plugin has been currently untested, so some features within this plugin may not work as intended.
  
  
- ## COMMANDS
- /checkitems <player> - Checks for other players items.
+ ## COMMANDS / PERMISSIONS
+ /checkitems <player> - Checks for other players items. - checkitems.inventory
   
   
-  ## PERMISSIONS
-  chckitems.inventory
-  
+  ## TO-DO LIST
+  Implement real-time inventory checking.
+  More-support for armor inventory.
+  Make that a double check instead of a normal chest.
+  Implement ender chest items checking.
+  Implement permissions configurations - To enable/disable permissioning levels.
+  Implement more events, and apis with this plugin.
