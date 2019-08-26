@@ -14,6 +14,8 @@ class CheckItemsCommand extends Command{
         $this->plugin = $plugin;
     }
     public function execute(CommandSender $sender, string $commandLabel, array $args){
+        if(!$this->testPermission($sender)){
+            return/
         if(!isset($args[0])){
             $sender->sendMessage(TextFormat::colorize("&6Please use: &b/$commandLabel <player>"));
             return;
