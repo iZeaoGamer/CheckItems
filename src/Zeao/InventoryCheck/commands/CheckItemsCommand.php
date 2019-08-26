@@ -11,11 +11,13 @@ use pocketmine\Player;
 class CheckItemsCommand extends Command{
     public function __construct(InventoryChecker $plugin){
         parent::__construct("checkitems", "Checks other players inventories. (Not takeable.", "/checkitems <player>");
+        $this->setPermission("checkitems.inventory"); //todo implement a config option to allow permissions.
         $this->plugin = $plugin;
     }
     public function execute(CommandSender $sender, string $commandLabel, array $args){
         if(!$this->testPermission($sender)){
-            return/
+            return;
+        }
         if(!isset($args[0])){
             $sender->sendMessage(TextFormat::colorize("&6Please use: &b/$commandLabel <player>"));
             return;
