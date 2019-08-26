@@ -10,8 +10,13 @@ It's pretty straight forward.
   
   ## TO-DO LIST
   Implement real-time inventory checking.
+  
   More-support for armor inventory.
+  
   Make that a double check instead of a normal chest.
+  
   Implement ender chest items checking.
+  
   Implement permissions configurations - To enable/disable permissioning levels.
+  
   Implement more events, and apis with this plugin.
