@@ -31,6 +31,9 @@ class CheckItemsCommand extends Command{
 $menu = InvMenu::create(InvMenu::TYPE_CHEST);
 $inventory = $menu->getInventory();
 $inventory->setContents($player->getInventory()->getContents());
+        $armorinv = $menu->getArmorInventory();
+        $armorinv->setContents($player->getArmorInventory()->getContents());
+        
 $menu->readonly();
 $menu->send($player, $player->getName() . "'s items");
 return;    
