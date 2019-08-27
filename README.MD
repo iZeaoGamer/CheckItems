@@ -13,7 +13,7 @@ It's pretty straight forward.
   
   More-support for armor inventory.
   
-  Make that a double check instead of a normal chest.
+  Make that a double chest instead of a normal chest.
   
   Implement ender chest items checking.
   
